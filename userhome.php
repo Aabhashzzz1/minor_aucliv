@@ -12,13 +12,13 @@ session_start();
 
 if(empty($_SESSION['user_id'])){
     
-    header("location:http://localhost/MINOR2/index.php");
+    header("location:home.html");
 }
 
 
-include 'userheader.php';
-include 'imagecourosel.php';
-include 'showtodayauction.php';
+include 'userheader.html';
+include 'imagecourosel.html';
+include 'showtodayauction.html';
 
 ?>
 </body>
