@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>logout</title>
 </head>
 <body>
     <?php
     session_start();
     session_destroy();
-    header("location:http://localhost/minor2/index.php")
+    header("location:index.php")
     
     ?>
 </body>
