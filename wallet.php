@@ -13,7 +13,7 @@ include 'db_config.php';
     <?php
     session_start();
     if(empty($_SESSION['user_id'])){
-        header("location:http://localhost/MINOR/index.php");  
+        header("location:index.php");  
     }
     include 'userheader.php';
     ?>
