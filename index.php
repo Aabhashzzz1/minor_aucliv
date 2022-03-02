@@ -12,11 +12,11 @@
 session_start();
 
 if(isset($_SESSION['user_id'])){
-    header("location:http://localhost/minor2/userhome.php");
+    header("location:userhome.php");
 }
 
 if(empty($_SESSION['user_id'])){
-    header("location:http://localhost/minor2/home.php");
+    header("location:home.php");
 }
 
 
