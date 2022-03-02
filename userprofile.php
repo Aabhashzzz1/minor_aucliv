@@ -21,7 +21,7 @@ if(isset($_SESSION['user_id'])){
     include 'userheader.php';
 }
 else{
-    header("location:http://localhost/minor2/index.php");
+    header("location:index.php");
 }
 
 
